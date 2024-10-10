@@ -51,7 +51,7 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 ### National awards
 
-{% for award in site.data.awards.national_awards %}
+{% for award in site.data.awards.national-awards %}
 
 - {{award.rank}} {{award.competition}} {{award.date}}
 
@@ -59,7 +59,7 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 ### Provincial awards
 
-{% for award in site.data.awards.provincial_awards %}
+{% for award in site.data.awards.provincial-awards %}
 
 - {{award.rank}} {{award.competition}} {{award.date}}
 
@@ -67,7 +67,7 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 ### University awards
 
-{% for award in site.data.awards.university_awards %}
+{% for award in site.data.awards.university-awards %}
 
 - {{award.rank}} {{award.competition}} {{award.date}}
 
