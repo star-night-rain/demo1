@@ -1,15 +1,15 @@
-- rank: 重庆市优秀志愿者
-  competition: 第八届中国国际"互联网+"大学生创新创业大赛全国总决赛
+- competition: 第八届中国国际"互联网+"大学生创新创业大赛全国总决赛
+  rank: 重庆市优秀志愿者
   date: 2023-08
 
-- rank: 二等奖
-  competition: 重庆市第十一届大学生程序设计大赛
+- competition: 重庆市第十一届大学生程序设计大赛
+  rank: 二等奖
   date: 2023-12
 
-- rank: C/C++程序设计大学A组二等奖
-  competition: 第十五届蓝桥杯全国软件和信息技术展业人才大赛个人赛省赛(软件赛)重庆赛区
+- competition: 第十五届蓝桥杯全国软件和信息技术展业人才大赛个人赛省赛(软件赛)重庆赛区
+  rank: C/C++程序设计大学A组二等奖
   date: 2024-04
 
-- rank: 三等奖
-  competition: 重庆市第十二届大学生程序设计大赛
-  date: 2024-6
+- competition: 重庆市第十二届大学生程序设计大赛
+  rank: 三等奖
+  date: 2024-06
