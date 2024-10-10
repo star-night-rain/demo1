@@ -50,7 +50,7 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 ## Awards  
 ### National awards  
-{% for award in site.data.awards.national_awards %}
+{% for award in site.data.national_awards %}
 
 - {{award.rank}} {{award.competition}} {{award.date}}
 
