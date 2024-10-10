@@ -50,14 +50,10 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 ## Awards  
 ### National awards  
-<h2>National Awards</h2>
-<ul>
-  {% for award in site.data.awards.national_awards %}
-    <li>
-      <strong>Rank:</strong> {{ award.rank }}<br>
-      <strong>Competition:</strong> {{ award.competition }}<br>
-      <strong>Date:</strong> {{ award.date }}
-    </li>
-  {% endfor %}
-</ul>
+{% for award in site.data.awards.national_awards %}
+
+- {{award.rank}} {{award.competition}} {{award.date}}
+
+{% endfor %}
+
 
