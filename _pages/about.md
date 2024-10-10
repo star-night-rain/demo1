@@ -56,3 +56,19 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 - {{award.rank}} {{award.competition}} {{award.date}}
 
 {% endfor %}
+
+### Provincial awards
+
+{% for award in site.data.awards.provincial_awards %}
+
+- {{award.rank}} {{award.competition}} {{award.date}}
+
+{% endfor %}
+
+### University awards
+
+{% for award in site.data.awards.university_awards %}
+
+- {{award.rank}} {{award.competition}} {{award.date}}
+
+{% endfor %}
