@@ -61,7 +61,7 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 {% for award in site.data.awards.provincial-awards %}
 
-- <span style="color:#1da25c">{{award.competition}}</span>,<span style="color:#f4b757">{{award.rank}}</span>,<span style="color:#1da25c">{{award.date}}</span>
+- <span style="color:#1da25c">{{award.competition}}</span>,<span style="color:#845EC2">{{award.rank}}</span>,<span style="color:#1da25c">{{award.date}}</span>
 
 {% endfor %}
 
@@ -69,6 +69,6 @@ More info about configuring Academic Pages can be found in [the guide](https://a
 
 {% for award in site.data.awards.university-awards %}
 
-- <span style="color:#1da25c">{{award.competition}}</span>,<span style="color:#f4b757">{{award.rank}}</span>,<span style="color:#1da25c">{{award.date}}</span>
+- <span style="color:#1da25c">{{award.competition}}</span>,<span style="color:#3e91f2">{{award.rank}}</span>,<span style="color:#1da25c">{{award.date}}</span>
 
 {% endfor %}
