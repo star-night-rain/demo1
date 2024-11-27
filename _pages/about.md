@@ -1,6 +1,7 @@
 ---
 permalink: /
 author_profile: true
+title: "Awards"
 redirect_from:
   - /about/
   - /about.html
