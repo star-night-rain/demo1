@@ -6,8 +6,6 @@ redirect_from:
   - /about.html
 ---
 
-## Awards
-
 ### National awards
 
 {% for award in site.data.awards.national-awards %}
